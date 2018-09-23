@@ -102,16 +102,42 @@
         />
 
     <Button
-        android:id="@+id/calcular"
+    android:id="@+id/calcular"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:text="Calcular"
+    android:textSize="15sp"
+    android:background="@color/colorAccent"
+    android:textColor="@color/colorSecondary"
+    android:onClick="Calcular"
+    />
+
+    <Button
+        android:id="@+id/salvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:text="Calcular"
+        android:layout_margin="10dp"
+        android:text="Salvar"
         android:textSize="15sp"
         android:background="@color/colorAccent"
         android:textColor="@color/colorSecondary"
-        android:onClick="Calcular"
+        android:onClick="Salvar"
+        />
+
+    <Button
+        android:id="@+id/listar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Listar"
+        android:textSize="15sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorSecondary"
+        android:onClick="Listar"
         />
 
 
